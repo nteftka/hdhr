@@ -1,0 +1,524 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	/* border: none; */
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* 以下記述 */
+/* ログイン画面*/
+.container{
+	margin-bottom: 10px;
+}
+
+p {
+  color: #072F48
+}
+
+#header {
+  background-color: #1796B4;
+  color: #072F48;
+}
+
+#header a {
+  color: #072F48;
+}
+
+#header ul {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+}
+
+#header li {
+	width: 20%;
+	position: relative;
+}
+
+#footer {
+  background-color: #1796B4;
+  color: #E5E0D2;
+}
+
+#footer td {
+	color: #E5E0D2;
+}
+
+a {
+    color: #072F48;
+}
+
+h1 {
+  color: #1f1135;
+  font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+h2 {
+	color: #1f1135;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+button {
+  cursor : pointer;
+}
+
+
+/* ログイン後ページ */
+#mainBtn {
+	display: flex;
+	justify-content:space-around;
+}
+
+.top-creat button {
+  background-color: #7ED8C5;
+  border: 0;
+  height: 300px;
+  width: 300px;
+  font-size: 40px;
+  border-radius: 20px;
+  margin: 100px 0px 100px 0px;
+}
+
+.top-creat button:hover {
+  opacity: 0.6;
+}
+
+.staff-list-btn button:hover {
+  opacity: 0.6;
+}
+
+.main button {
+  background-color: #1796B4;
+  border: 0;
+  height: 300px;
+  width: 300px;
+  font-size: 40px;
+  border-radius: 20px;
+  margin: 100px 0px 100px 0px;
+}
+
+.main button:hover {
+  opacity: 0.6;
+}
+
+/* mainページ */
+.dh-info {
+	border: 1px solid;
+	width: 400px;
+	margin: 0	auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dh-info p{
+	text-align: center;
+}
+
+#dh-info table{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#dh-info table td {
+	background: #E0ECDC;
+}
+
+#dh-info table tr:nth-child(odd) td {
+	background: #fff;
+}
+
+/* 新規登録（search） */
+.searchBtn {
+	text-align: center;
+	background: #7ED8C5;
+	border: none;
+	border-radius: 10%;
+}
+
+.searchBox form{
+	text-align: center;
+	border: none;
+	text-align: center;
+}
+
+.addA {
+	text-align: center;
+}
+
+.addA a{
+	background: #7ED8C5;
+	border: none;
+	border-radius: 10%;
+	padding: 5px;
+	font-size: 12px;
+}
+
+/*診療内容編集*/
+.input-box{
+	width:700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.input-box input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 48px;
+  width: 500px;
+  font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.input-box select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 48px;
+  width: 500px;
+  font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.btn-contents {
+	margin: 0 auto;
+}
+
+.btn-contents button {
+	  border: 1px solid #ddd;
+	  border-radius: 6px;
+	  height: 48px;
+	  width: 500px;
+	  font-size: 18px;
+		margin-bottom: 20px;
+		background: #1796B4;
+}
+
+.btn-contents input {
+	  border: 1px solid #ddd;
+	  border-radius: 6px;
+	  height: 48px;
+	  width: 500px;
+	  font-size: 18px;
+		margin-bottom: 20px;
+		background: #1796B4;
+}
+
+.btn-contents{
+	display: flex;
+	justify-content: center;
+}
+
+.confirm {
+	text-align: center;
+}
+
+.form-label-2 {
+	text-align: center;
+}
+
+/* .contents {
+	text-align: center;
+} */
+
+.pagination {
+    text-align: center;
+}
+.pagination li{
+    display: inline-block;
+		padding-left: 10px;
+}
+
+/*患者一覧*/
+.staff-info {
+	width:  700px;
+	margin: 0	auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.profile {
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	display: table;
+	border: 2px solid;
+	border-radius: 20%;
+}
+
+
+.profile p {
+	text-align: center;
+	width: 200px;
+}
+
+.id{
+	text-align: center;
+   margin: 0 auto;
+   width: 100px;
+   height: 100px;
+   line-height: 100px;
+   border-radius: 50%;
+	 margin-top: 20px;
+   margin-bottom: 50px;
+   background-color: #ff6e6c;
+   color: #fff;
+}
+
+.profile form{
+	text-align: center;
+}
+
+.profile input {
+	background-color: white;
+	border: none;
+	font-size: 16px;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.pagination li{
+    display: inline-block;
+}
+
+
+.staff_list {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#profile {
+  display: flex;
+}
+
+
+
+
+.button input {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	height: 48px;
+	width: 500px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background: #1796B4;
+}
+
+.btn button {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	height: 48px;
+	width: 200px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background: #1796B4;
+}
+.btn input {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	height: 48px;
+	width: 200px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background: #1796B4;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+}
+
+.card{
+	margin: 0 auto;
+}
+
+.btn-dell {
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+.form-item{
+	text-align: center;
+}
+
+.form-item p{
+	text-align: center;
+}
+
+#input-box{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#input-box label{
+	text-align: center;
+}
+
+#input-box select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 48px;
+  width: 500px;
+  font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#input-box p {
+	text-align: center;
+}
+
+#input-box textarea {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	height: 100px;
+	width: 500px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+/*印刷ページ*/
+#chart {
+	width: 1000px;
+	margin: 0	auto;
+}
+
+#chart form{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#chart input{
+	border: none;
+	background: #7ED8C5;
+}
+
+#chart p{
+	text-align: center;
+}
+
+.chart{
+	width: 700px;
+	margin: 0	auto;
+}
+
+.print table{
+	width: 700px;
+	margin: 0 auto;
+	border: solid 1px silver;
+}
+
+.print tr {
+	border: solid 1px silver;
+}
+
+.print button {
+	border: none;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background: white;
+	margin: 0	auto;
+	margin-top: 10px;
+}
+
+.print table{
+	margin-top: 10px;
+}
+
+.print td {
+	padding: 10px;
+}
+
+.no-print button{
+	justify-content: center;
+}
+
+@media print{
+	.no-print {
+		display: none;
+		margin-top: 10px;
+	}
+
+	.no-print button{
+		display: none;
+	}
+}
+
+.kr_add form{
+	margin: 0 auto;
+	/* justify-content: center; */
+}
+
+.btn-contents2{
+	display: flex;
+	margin: 0 auto;
+	width: 500px;
+}
+
+.btn-contents2 button {
+	background-color: #1796B4;
+	border: 0;
+	height: 48px;
+	width: 500px;
+	font-size: 18px;
+	border-radius: 6px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+.btn-contents2 input {
+	background-color: inherit;
+	border: solid 2px;
+	border-color: #1796B4;
+	height: 48px;
+	width: 500px;
+	font-size: 18px;
+	border-radius: 6px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
